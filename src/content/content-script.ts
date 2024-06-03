@@ -13,7 +13,8 @@ function assignBtn() {
 
 document.addEventListener('keydown', (e) => {
     const { nextBtn, prevBtn, viewBtn, role } = assignBtn();
-    if ((e.key === 'v' || e.code === 'KeyV') && role !== 'textbox') {
+    if (role !== 'textbox') return;
+    if (e.key === 'v' || e.code === 'KeyV') {
         (viewBtn as HTMLInputElement)?.click();
     } else if (e.code === 'ArrowRight') {
         nextBtn?.click();

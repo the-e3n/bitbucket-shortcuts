@@ -1,7 +1,7 @@
 {
     "name": "Bitbucket PR Review Shortcuts",
     "author": "Sagar",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "manifest_version": 3,
     "description": "Adds shortcuts to Bitbucket PR review page for large PRs.",
     "default_locale": "en",
